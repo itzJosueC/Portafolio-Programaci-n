@@ -126,9 +126,10 @@ Si ejecutamos el programa, el resultado de este ejercicio será 2.3, un número 
 ```python
 resultado = 1.2 + 1.1
 print(resultado)
-print(type(resultado))
+print(type(resultado))  #Se imprimirá <class 'float'>
 ```
-En este otro ejemplo, el programa luego de imprimir el resultado en pantalla, debajo de este imprimirá el tipo de 
+En este otro ejemplo, el programa luego de imprimir el resultado en pantalla, debajo de este imprimirá el tipo de dato que és en el siguiente formato: <class 'float'>, que da a entender que el tipo de dato resultante es float o flotante.
+
 ## String
 
 ## Casting en Python
