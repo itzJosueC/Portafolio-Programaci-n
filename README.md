@@ -69,8 +69,15 @@ El operador lógico resta en cuanto a como aplicar y como funciona, es igual a l
 resultado = 10-5
 print(resultado)
 ```
-En este ejemplo ocurrirá lo que ocurrió con el operador suma, se realizará la operación correspondiente restando 10-5, dando como resulado 5 e imprimiendolo en pantalla. 
+En este ejemplo ocurrirá lo que ocurrió con el operador suma, se realizará la operación correspondiente restando 10-5, dando como resultado el número 5 e imprimiendolo en pantalla. 
+
 ### Multiplicación
+Este operador lógico en programación se lo representa de la siguiente forma: * , ya que es el símbolo que usa el intérprete de python para referirnos que la operación que se llevará a cabo será una multiplicación, en cuanto a como aplicarlo no se diferencia a la suma y a la resta, a continuación se le presentará un ejemplo:
+```python
+resultado = 2*4
+print(resultado)
+```
+Al igual que los anteriores ejemplos, el programa multiplicará 2 por 4, guardando el resultado en la variable "resultado" y mostrando en pantalla el resultado, el cual es el número 8.
 
 ### División
 
