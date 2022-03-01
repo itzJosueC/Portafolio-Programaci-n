@@ -56,7 +56,12 @@ print((2+4)*6)
 Lo que pasará luego de ejecutar el programa será lo siguiente, la primera operación que se realizará primero será la que se encuentre dentro del paréntesis, en este caso 2+4, el resulado de esta operación se multiplicará por 6 y el resultado final se imprimirá en pantalla.
 
 ### Suma
-
+El operador lógico suma funciona igual que la suma en las matemáticas que conocemos de toda la vida, suma los dos numeros colocados por el programador o usuario, para poder llevar a cabo este operador en python solo necesitamos escribir lo siguiente:
+```python
+resultado = 4+8
+print(resultado)
+```
+Como pudimos observar en el ejemplo llevado a cabo, creé una variable que dentro contenga una operación, en este caso una suma entre el número 4 y el número 8, posteriormente escribí print y dentro coloqué el nombre de la variable que en este caso es "resultado", lo que pasará a continuación es que se imprimirá el resultado de la operación 4+8, es decir, se imprimirá en pantalla el número 12.
 ### Resta
 
 ### Multiplicación
