@@ -98,8 +98,22 @@ print(resultado)
 En este ejemplo se llevará a cabo la operación, dando como resultado el número 1, debido a que dos entre siete es igual a 3 veces 2, que da igual a 6 y faltando 1 para llegar a 7, siendo 1 el resultado y mostrándolo en pantalla.
 
 # Tipos de datos en Python
+Existen diversos tipos de datos en python, estos datos son representados por sus palabras reservadas, cuentan con diferentes características y clasificaciones, entre estos tipos de datos tenemos: 
+Integer(enteros)
+
+float (flotantes)
+
+string (texto). 
 
 ## Integer
+Los datos tipo integer se refiere a todo el conjunto de números enteros y en python se usan colocanto "int()", pero dado a que el conjunto es infinito, este se limita en python por la capacidad de memoria disponible, un número int o entero se crea a partir de un dato que esté represenado con un número entero, ya sea como resultado de una expresión o función.
+
+Representacion de números enteros en python:
+```python
+a = int(4)
+print(a)
+```
+En este ejemplo hacemos uso de int(), comando el cual da a conocer que el dato introducido o que se va a introducir es un número entero, una vez aclarado esto, damos a conocer que la variable a contiene un número entero, en este caso es el número 4, al momento de imprimir en pantalla la variable "a", se imprimirá el número 4.
 
 ## Float
 
