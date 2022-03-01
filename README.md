@@ -135,16 +135,18 @@ Los strings o cadenas, son datos compuestos por secuencias de caracteres (letras
 
 Ejemplo de String en Python(comillas dobles):
 ```python
-mitexto = "Me llamo Josue" 
-print(mitexto)             
+mi_nombre = "Me llamo Josue" 
+print(minombre)             
 ```
 Ejemplo de String en Python(comillas simples):
 ```python
-mitexto = 'Me llamo Josue'
-print(mitexto)             
+minombre = 'Me llamo Josue'
+print(minombre)             
 ```
 ## Casting en Python
-
+El casting o cast en python, se trata en convertir un tipo de dato a otro, por ejemplo, convertir un dato string a int o un dato int a float. Existen dos tipos de conversiones, la conversión implíita y la explícita:
+. Conversión implícita = Este tipo de conversión es realizada por python de forma automática y se lleva a cabo cuando se realizan ciertas operaciones con dos tipos distintos.
+. Conversión explícita =  Este tipo de conversión se realiza por nosotros mismos.
 ## List
 
 ## Tuple
