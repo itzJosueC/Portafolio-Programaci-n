@@ -34,8 +34,26 @@ Ejemplo Exra:
 marca_celular = 'Huawei'
 ```
 ## Asignando valores a una variable
+En este apartado aprenderemos a asignar un valor o dato a una variable, los valores o datos es lo que nuestra variable anteriormente creada almacenará dentro, para esto debemos tener pensado si nuestra variable almacenará un valor numérico o un valor , a continuación se le mostrará un ejemplo de  como asignar a nuestra variable un valor y un dato.
+
+Asignando un valor numérico a nuestra variable:
+```python
+valor_numerico = 5
+```
+Como puedes observar, el valor colocado no lleva las comillas que llevaban los anteriores ejemplos, esto se debe a que al no llevar comillas, python lo podrá reconocer automáicamente como valor numérico, por lo que si al valor 5 le asignamos las comillas, python lo interpretará como texto.
+
+Asignando una variable de texto:
+```python
+nombre_comida = 'hamburguesa'
+```
+En este otro ejemplo, volvemos a ver las comillas, guiándonos por la anterior explicación, podemos deducir que la palabra hamburguesa es un texto debido a que tiene comillas, cuando colocamos comillas, ya sean simples o dobles, python interpretara nuestro dato colocado como texto y lo imprimirá en pantalla.
 
 ## Operadores básicos
+Entre los operadores básicos en python encontramos el operador + (suma), - (resta), * (multiplicación), / (División), y % (Módulo). Para definir el orden en los que se llevará a cabo cada operación podemos hacer uso de los paréntesis (). Por ejemplo:
+```python
+print((2+4)*6)
+```
+Lo que pasará luego de ejecutar el programa será lo siguiente, la primera operación que se realizará primero será la que se encuentre dentro del paréntesis, en este caso 2+4, el resulado de esta operación se multiplicará por 6 y el resultado final se imprimirá en pantalla.
 
 ### Suma
 
