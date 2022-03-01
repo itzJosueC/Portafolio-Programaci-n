@@ -80,6 +80,14 @@ print(resultado)
 Al igual que los anteriores ejemplos, el programa multiplicará 2 por 4, guardando el resultado en la variable "resultado" y mostrando en pantalla el resultado, el cual es el número 8.
 
 ### División
+En caso del operador división, no se usará el signo ya conocido %, ya que en python no le pertenece a la división, por lo tanto, el signo que usaremos en lugar del ya conocido, se usará el slash /, el cual indica que la operación que se llevará a continuación es una división, realizando el mismo proceso que con los anteriores operadores.
+
+Ejemplo del Operador División:
+```python
+resultado = 26/2
+print(resultado)
+```
+En el ejemplo observado se llevará a cabo la división entre el numero 26 y el número 2, la cuál se lleva a cabo y una vez obtenido el resultado, en este caso el número 13, se lo imprimirá en pantalla.
 
 ### Módulo
 
