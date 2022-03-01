@@ -122,8 +122,13 @@ Ejemplo de una variable con resultado de tipo flotante:
 resultado = 1.2 + 1.1
 print(resultado)
 ```
-Si ejecutamos el programa, el resultado de este ejercicio será 2.3, un número decimal, por lo cual vendría a ser un valor float o flotante, otra forma de saber si nuestro resultado o número es float  
-
+Si ejecutamos el programa, el resultado de este ejercicio será 2.3, un número decimal, por lo cual vendría a ser un valor float o flotante, otra forma de saber qué tipo es nuestro número introducido o resultado puedes aplicar el siguiente comando:
+```python
+resultado = 1.2 + 1.1
+print(resultado)
+print(type(resultado))
+```
+En este otro ejemplo, el programa luego de imprimir el resultado en pantalla, debajo de este imprimirá el tipo de 
 ## String
 
 ## Casting en Python
