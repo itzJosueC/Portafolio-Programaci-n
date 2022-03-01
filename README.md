@@ -62,8 +62,14 @@ resultado = 4+8
 print(resultado)
 ```
 Como pudimos observar en el ejemplo llevado a cabo, creé una variable que dentro contenga una operación, en este caso una suma entre el número 4 y el número 8, posteriormente escribí print y dentro coloqué el nombre de la variable que en este caso es "resultado", lo que pasará a continuación es que se imprimirá el resultado de la operación 4+8, es decir, se imprimirá en pantalla el número 12.
-### Resta
 
+### Resta
+El operador lógico resta en cuanto a como aplicar y como funciona, es igual a la suma, a diferencia de que en lugar de sumar los números asignados, los restará y dará el resultado al usuario, a continuación un ejemplo de como aplicarlo en python:
+```python
+resultado = 10-5
+print(resultado)
+```
+En este ejemplo ocurrirá lo que ocurrió con el operador suma, se realizará la operación correspondiente restando 10-5, dando como resulado 5 e imprimiendolo en pantalla. 
 ### Multiplicación
 
 ### División
