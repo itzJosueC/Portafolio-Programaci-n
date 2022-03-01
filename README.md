@@ -168,15 +168,28 @@ print(a)
 print(type(a)) #resultado <class 'int'>
 ```
 ## List
-La función list en python, nos permite crear listas las cuales podremos usarlas para enlistar datos que vayamos a usar posteriormente en el programa, estos pueden ser tanto cadenas de texto, como números, decimales y más. Para declarar los datos que se encontrarán dentro de nuestra lista no debemos usar paréntesis (), en este caso usaremos corchetes []  Es importante también evitar las comillas si el dato es un entero o decimal, y agregar comillas si el dato es una cadena de texto. Para poder llevar a cabo la creación de una lista podemos guiarnos del siguiente ejemplo:
+La función list en python, nos permite crear listas las cuales podremos usarlas para enlistar datos que vayamos a usar posteriormente en el programa, estos pueden ser tanto cadenas de texto, como números, decimales y más. Para declarar los datos que se encontrarán dentro de nuestra lista no debemos usar paréntesis (), en este caso usaremos corchetes []  Es importante también evitar las comillas si el dato es un entero o decimal, y agregar comillas si el dato es una cadena de texto.
+
+Otro dato de las listas es que si quieres que se imprima un elemento en específico de la lista puedes usar el número de ese elemento, para esto debes saber que los elementos se cuentan de izquierda a derecha y se empieza a contar desde el número 0, es decir: 0, 1, 2, 3... 
+
+Para poder llevar a cabo la creación de una lista podemos guiarnos del siguiente ejemplo:
 ```python
 lista_ejemplo = ['pan', 'arroz', 'platano', 50, 1.5]
+print(lista_ejemplo[0]) #imprimirá pan
 ```
 También se encuentran las listas anidadas, es decir, listas dentro de otras listas la cual también puede ser usada con total normalidad, por ejemplo:
 ```python
 lista_ejemplo = ['pan', 'arroz', 'platano', ['comino', 'enlatado'], 50, 1.5]
+print(lista_ejemplo[3]) #imprimirá ['comino', 'enlatado']
 ```
 ## Tuple
+Las tuplas en python es un conjunto ordenado de elementos que se encuentran encerrados por paréntesis y separados por comas, casi como si fuera una lista, debemos tener en cuenta que una tupla no puede ser una tupla vacía(no tener ningún elemento dentro). 
+
+Ejemplo de una tupla en python:
+```python
+mitupla = (5, 10, 25, 'aguacate')
+print(mitupla) #imprimirá (5, 10, 25, 'aguacate')
+```
 
 ## Dictionary
 
