@@ -58,7 +58,7 @@ Lo que pasará luego de ejecutar el programa será lo siguiente, la primera oper
 ### Suma
 El operador lógico suma funciona igual que la suma en las matemáticas que conocemos de toda la vida, suma los dos numeros colocados por el programador o usuario, para poder llevar a cabo este operador en python solo necesitamos escribir lo siguiente:
 ```python
-resultado = 4+8
+resultado = 4 + 8
 print(resultado)
 ```
 Como pudimos observar en el ejemplo llevado a cabo, creé una variable que dentro contenga una operación, en este caso una suma entre el número 4 y el número 8, posteriormente escribí print y dentro coloqué el nombre de la variable que en este caso es "resultado", lo que pasará a continuación es que se imprimirá el resultado de la operación 4+8, es decir, se imprimirá en pantalla el número 12.
@@ -66,7 +66,7 @@ Como pudimos observar en el ejemplo llevado a cabo, creé una variable que dentr
 ### Resta
 El operador lógico resta en cuanto a como aplicar y como funciona, es igual a la suma, a diferencia de que en lugar de sumar los números asignados, los restará y dará el resultado al usuario, a continuación un ejemplo de como aplicarlo en python:
 ```python
-resultado = 10-5
+resultado = 10 - 5
 print(resultado)
 ```
 En este ejemplo ocurrirá lo que ocurrió con el operador suma, se realizará la operación correspondiente restando 10-5, dando como resultado el número 5 e imprimiendolo en pantalla. 
@@ -74,7 +74,7 @@ En este ejemplo ocurrirá lo que ocurrió con el operador suma, se realizará la
 ### Multiplicación
 Este operador lógico en programación se lo representa de la siguiente forma: * , ya que es el símbolo que usa el intérprete de python para referirnos que la operación que se llevará a cabo será una multiplicación, en cuanto a como aplicarlo no se diferencia a la suma y a la resta, a continuación se le presentará un ejemplo:
 ```python
-resultado = 2*4
+resultado = 2 * 4
 print(resultado)
 ```
 Al igual que los anteriores ejemplos, el programa multiplicará 2 por 4, guardando el resultado en la variable "resultado" y mostrando en pantalla el resultado, el cual es el número 8.
@@ -84,12 +84,18 @@ En caso del operador división, no se usará el signo ya conocido %, ya que en p
 
 Ejemplo del Operador División:
 ```python
-resultado = 26/2
+resultado = 26 / 2
 print(resultado)
 ```
 En el ejemplo observado se llevará a cabo la división entre el numero 26 y el número 2, la cuál se lleva a cabo y una vez obtenido el resultado, en este caso el número 13, se lo imprimirá en pantalla.
 
 ### Módulo
+El módulo es una operación aritmética en la que se divide un valor por otro, y el residuo se devuelve. El simbolo usado para este operador es el % (en Python este simbolo se usa para obtener el módulo de una operación), la aplicación de la operación es igual de simple que el de los anteriores operadores. Veamos un ejemplo:
+```python
+resultado = 7 % 2
+print(resultado)
+```
+En este ejemplo se llevará a cabo la operación, dando como resultado el número 1, debido a que dos entre siete es igual a 3 veces 2, que da igual a 6 y faltando 1 para llegar a 7, siendo 1 el resultado y mostrándolo en pantalla.
 
 # Tipos de datos en Python
 
