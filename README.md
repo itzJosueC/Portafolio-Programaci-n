@@ -131,7 +131,18 @@ print(type(resultado))  #Se imprimirá <class 'float'>
 En este otro ejemplo, el programa luego de imprimir el resultado en pantalla, debajo de este imprimirá el tipo de dato que és en el siguiente formato: <class 'float'>, que da a entender que el tipo de dato resultante es float o flotante.
 
 ## String
+Los strings o cadenas, son datos compuestos por secuencias de caracteres (letras) que representan un texto. Las cadenas de texto son de tipo str(string) y se representan mediante pares de comillas simples o doblesm ya que no afectará al código. A continuación se mostrará un ejemplo de como usar un string en python.
 
+Ejemplo de String en Python(comillas dobles):
+```python
+mitexto = "Me llamo Josue" 
+print(mitexto)             
+```
+Ejemplo de String en Python(comillas simples):
+```python
+mitexto = 'Me llamo Josue'
+print(mitexto)             
+```
 ## Casting en Python
 
 ## List
