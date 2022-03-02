@@ -200,7 +200,7 @@ diccionario = {'Nombre': 'Josue', 'Edad': 18}
 print(diccionario)
 ```
 # Tomando decisiones
-Las decisiones en python son importantes al momento de decidir si nuestro programa debe ejecutar una orden, solo si se cumple con alguna condición anterior
+Las decisiones en python son importantes al momento de decidir si nuestro programa debe ejecutar una orden, solo si se cumple con alguna condición anterior, para lograr esto en python, hacemos uso de la sentencia if.
 ## Sentencia if
 
 ## Ciclo For
