@@ -192,7 +192,12 @@ print(mitupla) #imprimirá (5, 10, 25, 'aguacate')
 ```
 
 ## Dictionary
+Un diccionario en python es un tipo de datos que nos permite almacenar datos de cualquier tipo ya sea cadenas, enteros, flotantes, incluso listas... Una característica que diferencia al diccionario con las listas y tuplas, es que podemos encontrar elementos mediante una clave (key) que almacenamos en nuestro diccionario. Un dato que debemos tener muy en cuenta a la hora de crear un diccionario, es que debemos almacenar nuestros datos en {}, en caso de querer crear una lista dentro de nuestro diccionario, esta deberá ir en corchetes [].
 
+Ejemplo de la creación de un diccionario en Python:
+```python
+diccionario = {'nombre': 'Josue', 'gustos': ['pizza', 'videojuegos']}
+```
 # Tomando decisiones
 
 ## Sentencia if
