@@ -201,8 +201,9 @@ print(diccionario)
 ```
 # Tomando decisiones
 Las decisiones en python son importantes al momento de decidir si nuestro programa debe ejecutar una orden, solo si se cumple con alguna condición anterior, para lograr esto en python, hacemos uso de la sentencia if.
-## Sentencia if
 
+## Sentencia if
+Esta sentencia condicional llamada if, es usada en python para tomar decisiones,
 ## Ciclo For
 
 ## Ciclo While
