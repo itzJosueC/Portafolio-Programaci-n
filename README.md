@@ -29,7 +29,7 @@ marca_laptop = 'lenovo'
 ```
 En el ejemplo anterior podemos observar como creé una variable la cual le asigné el nombre "marca_laptop", (ten en cuenta que no puedes colocar espacios y para evitar problemas, tratemos de escribir todo con minúscula, si no quieres escribir todo unido, puedes separar las palabras con un " _ ", es necesario que sea un guión bajo) y contiene la marca de una laptop, después coloqué el operador de asignación " = ", y por último escribí la marca de una laptop en este caso "lenovo", que viene a ser lo que nuestra variable está almacenando, una vez comprendido el como nombrar una variable, podemos seguir con la asignación de valores a una variable.
 
-Ejemplo Exra:
+Ejemplo Extra:
 ```python
 marca_celular = 'Huawei'
 ```
