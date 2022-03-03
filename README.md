@@ -235,7 +235,23 @@ for i in range(5):
                                       #          Repetición: 4
 ```
 Para el ejemplo mostrado, hice uso de "range" para determinar el número de repeticiones que deseamos que se ejecuten, en mi caso coloqué 5 repeticiones, por lo que el programa imprimió 5 repeticiones y luego finalizó.(Recordemos que en python se empieza a contar desde el número 0).
+
 ## Ciclo While
+La declaración o ciclo while al igual que el ciclo for, evalúa una condición y luego ejecuta un bloque de código solo si la condición dada por el programa es verdadera, el código seguirá ejecutandose hasa que la condición sea falsa.
+
+Ejemplo de Ciclo While:
+```python
+x = 0
+while x < 5:
+    print('El valor actual es:', x)
+    x += 1
+```
+En este ejemplo, tenemos la variable x con valor de 0, con while preguntaremos si la variable x es menor a 5, se imprima "El valor actual es: x", la variable x en la ejecución irá variando hasta que llegue a 4, ya que al llegar a 5, ya no cumple la condición y finaliza el programa, es decir, solo se imprimirá lo siguiente:
+El valor actual es: 0
+El valor actual es: 1
+El valor actual es: 2
+El valor actual es: 3
+El valor actual es: 4
 
 ## Break
 
