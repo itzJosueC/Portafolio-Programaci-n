@@ -203,7 +203,18 @@ print(diccionario)
 Las decisiones en python son importantes al momento de decidir si nuestro programa debe ejecutar una orden, solo si se cumple con alguna condición anterior, para lograr esto en python, hacemos uso de la sentencia if.
 
 ## Sentencia if
-Esta sentencia condicional llamada if, es usada en python para tomar decisiones,
+Esta sentencia condicional llamada if, es usada en python para tomar decisiones y funciona de la siguiente manera, el programa ejecutará una condición, luego verificará si esta condición se cumple, y solo si la condición puesta por el programa se cumple, imprimirá la orden determinada por el programador, caso contrario puede imprimirse otra orden y finalizar el programa o puede no pasar nada y finalizar el programa. 
+
+A continuación mostraré un ejemplo del uso de la sentencia if en python:
+```python
+x = 5
+if x == 1:
+    print('El número', x, 'es igual a 1')
+print("")
+```
+En ese ejemplo se muestra que la variable x contiene el valor 0, luego usé if para preguntar al programa si x(5) es igual a 1, si es así debe mostrar en pantalla: El número 5, es igual a 1. En caso de que no sea cierto, solo no imprimirá nada y terminará la ejecución del programa.
+
+También tenemos la sentencia else con la que indicamos a nuestro programa, que si la condición anterior no se cumple 
 ## Ciclo For
 
 ## Ciclo While
