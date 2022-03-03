@@ -209,12 +209,20 @@ A continuación mostraré un ejemplo del uso de la sentencia if en python:
 ```python
 x = 5
 if x == 1:
-    print('El número', x, 'es igual a 1')
-print("")
+    print('El número', x, 'es igual a 1')  # Solo se imprimirá si la variable x es igual a 1.
+print("")                                  # Si la variable x no es igual a 1, no imprimirá nada y finalizará el programa.
 ```
 En ese ejemplo se muestra que la variable x contiene el valor 0, luego usé if para preguntar al programa si x(5) es igual a 1, si es así debe mostrar en pantalla: El número 5, es igual a 1. En caso de que no sea cierto, solo no imprimirá nada y terminará la ejecución del programa.
 
-También tenemos la sentencia else con la que indicamos a nuestro programa, que si la condición anterior no se cumple 
+También tenemos la sentencia else, que indica al programa, que si la condición anterior no se cumplió, imprima una orden distinta y finalize el programa.
+```python
+x = 5
+if x == 1:
+    print('El número', x, 'es igual a 1')
+else:
+    print('El número', x, 'no es igual a 1')      #Este programa imprimirá: El número, 5, no es igual a 1
+print("")
+```
 ## Ciclo For
 
 ## Ciclo While
