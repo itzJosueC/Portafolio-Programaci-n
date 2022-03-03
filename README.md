@@ -259,6 +259,31 @@ El valor actual es: 3
 El valor actual es: 4
 
 ## Break
-La sentencia Break nos permite cerrar un ciclo o bucle cuando en el programa se activa una condición externa 
+La sentencia Break nos permite cerrar un ciclo o bucle cuando en el programa se activa una condición externa, esta función se coloca dentro del bloque de código debajo del bucle, normalmente luego de la instruccion "if".
+
+Ejemplo de uso de Break en Python:
+```python
+x = 0
+while x < 5:
+    print('El valor actual es:', x)
+    x += 1
+    if x >= 4:
+        break
+```
+Lo que vemos en este código es que cuando la variable x llegue tenga de valor el número 4, rompa el ciclo dandole fin al bucle while.
 
 ## Continue
+La instrucción continue en python permite saltar una instrucción escrita, es decir, no ejecuta un bloque de instrucciones específico ya que se saltó ese bloque, continuando así con bloque siguiente o finalizando el programa.
+
+Ejemplo de la instrucción Continue en Python:
+```python
+num_1 = 0
+
+for num_1 in range(10):
+    if num_1 == 5:
+        continue
+
+    print('El número es:', num_1)
+print('Finalizando Programa')
+```
+En este ejemplo, el programa ejecutó los números del uno al diez, excepto el número 5 ya que había una condición que decía indicaba lo siguiente: "Si num_1 es igual a 5", y bajo de esa condición aplicamos la instrucción continue, lo que quiere decir que si num_1 es igual a 5, debe saltarlo y no imprimirlo en pantalla.
