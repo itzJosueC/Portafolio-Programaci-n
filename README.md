@@ -224,7 +224,17 @@ else:
 print("")
 ```
 ## Ciclo For
-
+El ciclo for en python, es una estructura que repite una serie de instrucciones por un número determinado de veces, a esto es lo que denominamos un bucle, algo que se repite.
+Podemos usar el ciclo for para repetir una secuencia de bloques hasta que la misma ya no sea válida, por ejemplo:
+```python
+for i in range(5):
+    print(i)           #Imprimirá Repetición: 0
+                       #          Repetición: 1
+                       #          Repetición: 2
+                       #          Repetición: 3
+                       #          Repetición: 4
+```
+Para el ejemplo mostrado, hice uso de "range" para determinar el número de repeticiones que deseamos que se ejecuten, en mi caso coloqué 5 repeticiones, por lo que el programa imprimió 5 repeticiones y luego finalizó.(Recordemos que en python se empieza a contar desde el número 0).
 ## Ciclo While
 
 ## Break
