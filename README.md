@@ -183,12 +183,11 @@ lista_ejemplo = ['pan', 'arroz', 'platano', ['comino', 'enlatado'], 50, 1.5]
 print(lista_ejemplo[3]) #imprimirá ['comino', 'enlatado']
 ```
 ## Tuple
-Las tuplas en python es un conjunto ordenado de elementos que se encuentran encerrados por paréntesis y separados por comas, casi como si fuera una lista, debemos tener en cuenta que una tupla no puede ser una tupla vacía(no tener ningún elemento dentro). 
+Las tuplas en python es un conjunto ordenado de elementos que se encuentran encerrados por paréntesis y separados por comas, casi como si fuera una lista, debemos tener en cuenta que una tupla no puede ser una tupla vacía(no tener ningún elemento dentro), y tampoco puede cambiar el orden ni datos dentro de ellas. 
 
 Ejemplo de una tupla en python:
 ```python
-mitupla = (5, 10, 25, 'aguacate')
-print(mitupla) #imprimirá (5, 10, 25, 'aguacate')
+(5, 10, 25, 'aguacate')
 ```
 
 ## Dictionary
