@@ -259,5 +259,6 @@ El valor actual es: 3
 El valor actual es: 4
 
 ## Break
+La sentencia Break nos permite cerrar un ciclo o bucle cuando en el programa se activa una condición externa 
 
 ## Continue
